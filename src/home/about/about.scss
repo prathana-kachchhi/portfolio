@@ -1,0 +1,55 @@
+@import '../../styles/index.scss';
+
+.about {
+    padding: 60px 0;
+
+    .container {
+        section {
+
+            .heading {
+                margin-bottom: 30px;
+
+                h2 {
+                    margin: 0 auto;
+                    width: fit-content;
+                    font-size: 30px;
+                    color: var(--theme-white-text-color);
+                    padding: 20px 30px;
+                    background-color: var(--theme-primary-dark-background-color);
+                    border-radius: 20px;
+                }
+            }
+
+            .about-details {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                justify-content: center;
+                align-items: center;
+                gap: 80px;
+
+                .profile-pic {
+
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                        display: block;
+                        border-radius: 10px;
+                    }
+                }
+
+                .details {
+                    padding: 20px;
+                    border: 2px solid var(--theme-primary-dark-border-color);
+                    border-radius: 10px;
+
+                    p {
+                        font-size: 20px;
+                        font-weight: 400;
+                        color: var(--theme-primary-dark-text-color);
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
