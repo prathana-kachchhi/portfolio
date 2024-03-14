@@ -1,0 +1,39 @@
+@import '../../styles/index.scss';
+
+.profile {
+    .container {
+        section {
+            .heading {
+                cursor: pointer;
+                padding: 20px;
+                width: fit-content;
+                margin: 20px auto 0 auto;
+                border: 10px solid var(--theme-primary-dark-border-color);
+
+                p {
+                    font-size: 20px;
+                    font-weight: 400;
+                    text-align: center;
+                    color: var(--theme-primary-semi-light-text-color);
+                }
+
+                h1 {
+                    font-size: 50px;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                    text-align: center;
+                    color: var(--theme-primary-dark-text-color);
+                }
+
+                span {
+                    display: block;
+                    text-align: center;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    color: var(--theme-primary-semi-dark-text-color);
+                    letter-spacing: 10px;
+                }
+            }
+        }
+    }
+}
