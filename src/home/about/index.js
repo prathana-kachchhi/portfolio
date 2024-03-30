@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.scss'
-import profilePic from '../../assets/images/profile-pic.jpg';
+import profilePic from '../../assets/images/profile-pic.jpeg';
 
 export default function About() {
     return (

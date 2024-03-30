@@ -21,16 +21,20 @@
             }
 
             .about-details {
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                justify-content: center;
-                align-items: center;
-                gap: 80px;
+
+
 
                 .profile-pic {
+                    padding: 20px;
+                    width: fit-content;
+                    border-radius: 10px;
+                    margin: 0 auto 50px auto;
+                    background-color: var(--theme-primary-semi-dark-text-color);
+                    display: flex;
+                    justify-content: center;
 
                     img {
-                        width: 100%;
+                        width: 200px;
                         object-fit: cover;
                         display: block;
                         border-radius: 10px;
